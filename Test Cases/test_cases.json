@@ -1,0 +1,14 @@
+{
+"test_cases": [
+{
+"id": 1,
+"priority": "high",
+"summary": "Paywall closes after buying subscription"
+},
+{
+  "id": 2,
+  "priority": "high",
+  "summary": "Premium status cached after relaunching the app w/o Internet"
+}
+]
+}
