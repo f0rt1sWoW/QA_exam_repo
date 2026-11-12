@@ -1,0 +1,16 @@
+{
+  "bug_reports": [
+    {
+      "summary": "The X button is not displayed on paywall",
+      "priority": "high",
+      "severity": "high",
+      "steps_to_reproduce": [
+        "1. Launch the app",
+        "2. Reach the paywall",
+        "3. Pay attention to the top of the screen"
+      ],
+      "actual_result": "The X button is not displayed",
+      "expected_result": "The X button should be displayed"
+    }
+  ]
+}
