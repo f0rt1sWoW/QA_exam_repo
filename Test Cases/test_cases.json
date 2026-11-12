@@ -1,14 +1,22 @@
 {
-"test_cases": [
-{
-"id": 1,
-"priority": "high",
-"summary": "Paywall closes after buying subscription"
-},
-{
-  "id": 2,
-  "priority": "high",
-  "summary": "Premium status cached after relaunching the app w/o Internet"
-}
-]
+  "test_cases": [
+    {
+      "id": 1,
+      "priority": "high",
+      "summary": "Paywall closes after buying or restoring subscription",
+      "result": "Paywall closes"
+    },
+    {
+      "id": 2,
+      "priority": "high",
+      "summary": "Premium status cached after relaunching the app w/o Internet",
+      "result": "Premium status is cached"
+    },
+    {
+      "id": 3,
+      "priority": "medium",
+      "summary": "Terms of Use and Privacy Policy links are displayed and tappable",
+      "result": "Links are displayed and tappable"
+    }
+  ]
 }
